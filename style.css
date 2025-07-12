@@ -11,7 +11,7 @@ body {
 
 .foto{
     flex: 1;
-    background-color:rgba(48, 148, 45, 0.979) ;
+    background-color:rgba(62, 192, 58, 0.979) ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,12 +29,17 @@ flex-direction: column;
 justify-content: center;
 }
 .infos h1{
-    font-size: 48px;
+    font-size: 50px;
     margin: 0;
     color: rgb(255, 230, 0);
 }
 .infos h2{
-    font-size: 24px;
+    font-size: 25px;
     margin-top: 10px;
     color: rgb(255, 217, 0);
+}
+.infos p{
+    font-size: 18px;
+    margin: 8px 0;
+    color: #ffe600;
 }
