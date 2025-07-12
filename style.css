@@ -11,13 +11,13 @@ body {
 
 .foto{
     flex: 1;
-    background-color:rgba(235, 235, 235, 0.979) ;
+    background-color:rgba(46, 143, 22, 0.979) ;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .foto img{
-    width: 1200px;
+    width: 1100px;
     height: auto;
     border-radius: 10px;
 }
