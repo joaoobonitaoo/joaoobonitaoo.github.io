@@ -11,7 +11,7 @@ body {
 
 .foto{
     flex: 1;
-    background-color:rgba(46, 143, 22, 0.979) ;
+    background-color:lab(52.16% -49.42 50.53 / 0.979) ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,7 +133,7 @@ footer p{
   content: "✔"; /* Insere o caractere de check (✔) antes do texto */
   position: absolute; /* Posiciona o check de forma absoluta em relação ao seu pai (.habilidades li) */
   left: 0; /* Alinha o check na borda esquerda do item */
-  color: black; /* Define a cor do check como preto */
+  color: rgb(251, 255, 0); /* Define a cor do check como preto */
 }
 
 /* --- Media Queries: Estilos para telas menores (smartphones e tablets) --- */
@@ -153,7 +153,7 @@ footer p{
 
   /* Muda a cor de fundo da seção de início em telas menores (do cinza para #F4DECB) */
   .inicio{
-      background-color: #F4DECB;
+      background-color: #ff0000;
   }
 
   /* Reduz o espaçamento interno destas seções em telas menores */
