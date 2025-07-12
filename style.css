@@ -21,3 +21,10 @@ body {
     height: auto;
     border-radius: 9px;
 }
+.infos{
+flex: 2;
+padding: 60px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
