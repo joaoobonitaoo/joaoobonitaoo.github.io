@@ -11,13 +11,13 @@ body {
 
 .foto{
     flex: 1;
-    background-color:rgba(62, 192, 58, 0.979) ;
+    background-color:rgba(235, 235, 235, 0.979) ;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .foto img{
-    width: 1000px;
+    width: 1200px;
     height: auto;
     border-radius: 10px;
 }
@@ -39,7 +39,24 @@ justify-content: center;
     color: rgb(255, 217, 0);
 }
 .infos p{
-    font-size: 18px;
+    font-size: 20px;
     margin: 8px 0;
     color: #ffe600;
+}
+
+.social{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+
+}
+.social a{
+    display: grid;
+    place-items: center;
+    color: #ffe600;
+    border: 1.6px solid yellow;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding: 0.39rem;
+    text-align:center ;
 }
